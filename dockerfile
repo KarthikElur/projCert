@@ -6,4 +6,4 @@ ADD website /var/www/html
 RUN rn /var/www/html/index.html
 
 # Start Apache server
-CMD ["apache2ctl", "-D", "FOREGROUND"]
+CMD apache2ctl -D FOREGROUND
